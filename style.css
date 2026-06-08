@@ -122,7 +122,14 @@ transition:.3s;
 transform:translateY(-3px);
 background:var(--red-light);
 }
-
+.top-banner{
+background:var(--red);
+text-align:center;
+padding:12px;
+font-weight:700;
+position:relative;
+z-index:1000;
+}
 /* =========================
    HERO
 ========================= */
@@ -307,7 +314,11 @@ transition:.4s;
 
 .service-card:hover{
 transform:translateY(-10px);
-border-color:rgba(220,38,38,.4);
+border-color:rgba(220,38,38,.5);
+
+box-shadow:
+0 0 30px rgba(220,38,38,.15),
+0 0 60px rgba(220,38,38,.08);
 }
 
 .service-card h3{
@@ -375,6 +386,11 @@ border-radius:20px;
 text-align:center;
 font-weight:700;
 font-size:1.2rem;
+}
+.special-card p{
+margin-top:10px;
+opacity:.9;
+font-size:.95rem;
 }
 
 /* =========================
